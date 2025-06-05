@@ -1,0 +1,45 @@
+📌 Overview
+This project uses the Titanic dataset to build a machine learning model that predicts whether a passenger survived or not based on features like age, class, sex, and fare. Logistic Regression is used as the classification algorithm.
+
+📂 Dataset
+The dataset used is the classic Titanic dataset, which contains information about passengers such as:
+
+PassengerId: Unique identifier
+
+Survived: Target variable (0 = No, 1 = Yes)
+
+Pclass: Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+
+Name, Sex, Age: Demographics
+
+SibSp, Parch: Family relationships
+
+Fare: Ticket fare
+
+Cabin, Embarked: Additional info
+
+🎯 Objective
+To predict passenger survival using Logistic Regression based on key features from the dataset.
+
+🛠️ Technologies Used
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn (Logistic Regression, train_test_split, metrics)
+
+📊 Exploratory Data Analysis (EDA)
+Visualized survival rate by gender, class, and age
+
+Checked for missing values and data imbalance
+
+Handled missing values using mean (for Age, Fare) and mode (for Embarked)
+
+🧪 Preprocessing
+Handled missing values
+
+Converted categorical variables (like Sex, Embarked) to numeric using pd.get_dummies()
+
+Feature selection based on correlation and domain knowledge
